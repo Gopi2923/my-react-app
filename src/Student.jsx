@@ -10,7 +10,7 @@ const Student = (props) => {
   )
 }
 
-Student.propType = {
+Student.proptypes = {
     name: propType.string,
     age: propType.number,
     isStudent: propType.bool
