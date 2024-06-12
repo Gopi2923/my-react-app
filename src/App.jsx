@@ -1,9 +1,23 @@
 import Button from "./Button/Button"
 import Card from "./Card"
+import List from "./List"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 
 function App() {
+
+    const fruits = [{id: 1, name: "apple", calories: 95},
+        {id: 2, name: "orange", calories: 45}, 
+        {id: 3, name:"banana", calories: 105},
+        {id: 4, name:"coconut", calories: 159}, 
+        {id: 5, name:"pineapple", calories: 37,}];
+    
+        const vegetables = [{id: 6, name: "apple", calories: 125},
+            {id: 7, name: "potatos", calories: 415}, 
+            {id: 8, name:"celery", calories: 23},
+            {id: 9, name:"corn", calories: 67}, 
+            {id: 10, name:"broccoli", calories: 87,}];    
+        
 return (
  <>
   <Card />
@@ -16,6 +30,16 @@ return (
   <Student />
 
   <UserGreeting isLoggedIn={true} userName="Gopi"/>
+
+   {/* {fruits.length > 0 ? <List items={fruits} category="Fruits"/> : null}
+   {vegetables.length > 0 ? <List items={vegetables} category="Vegetables"/> : null} */}
+
+{fruits.length > 0 && <List items={fruits} category="Fruits"/>}
+{vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
+
+  
+  
+
  </>
 ) 
 }
