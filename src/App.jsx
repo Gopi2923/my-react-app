@@ -1,4 +1,5 @@
 import Button from "./Button/Button"
+import Buttons from "./Buttons"
 import Card from "./Card"
 import List from "./List"
 import Student from "./Student"
@@ -36,6 +37,9 @@ return (
 
 {fruits.length > 0 && <List items={fruits} category="Fruits"/>}
 {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
+
+
+  <Buttons />
 
   
   
