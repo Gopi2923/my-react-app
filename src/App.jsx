@@ -2,6 +2,7 @@ import Button from "./Button/Button"
 import Buttons from "./Buttons"
 import Card from "./Card"
 import List from "./List"
+import ProfilePicture from "./ProfilePicture"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
 
@@ -39,8 +40,9 @@ return (
 {vegetables.length > 0 && <List items={vegetables} category="Vegetables"/>}
 
 
+<ProfilePicture />
   <Buttons />
-
+  
   
   
 
