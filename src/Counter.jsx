@@ -6,10 +6,20 @@ const Counter = () => {
 
     const increment = () => {
         setCount(count + 1)
+
+        //updater function
+        // setCount(count => count + 1)
+        // setCount(count => count + 1)
+        // setCount(count => count + 1)
     }
 
     const decrement = () => {
         setCount(count - 1)
+        
+        //updater function
+        // setCount(count => count - 1)
+        // setCount(count => count - 1)
+        // setCount(count => count - 1)
     }
 
     const reset = () => {
