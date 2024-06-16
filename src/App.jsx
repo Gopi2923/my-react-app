@@ -4,6 +4,7 @@ import Card from "./Card"
 import Counter from "./Counter"
 import List from "./List"
 import MyComponent from "./MyComponent"
+import OnChangeEvents from "./OnChangeEvents"
 import ProfilePicture from "./ProfilePicture"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
@@ -47,7 +48,7 @@ return (
   
   <MyComponent />
   <Counter />
-  
+  <OnChangeEvents />
   
 
  </>
