@@ -1,7 +1,9 @@
 import Button from "./Button/Button"
 import Buttons from "./Buttons"
 import Card from "./Card"
+import Counter from "./Counter"
 import List from "./List"
+import MyComponent from "./MyComponent"
 import ProfilePicture from "./ProfilePicture"
 import Student from "./Student"
 import UserGreeting from "./UserGreeting"
@@ -43,6 +45,8 @@ return (
 <ProfilePicture />
   <Buttons />
   
+  <MyComponent />
+  <Counter />
   
   
 
