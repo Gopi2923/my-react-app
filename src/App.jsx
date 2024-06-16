@@ -1,6 +1,7 @@
 import Button from "./Button/Button"
 import Buttons from "./Buttons"
 import Card from "./Card"
+import ColorPicker from "./ColorPicker"
 import Counter from "./Counter"
 import List from "./List"
 import MyComponent from "./MyComponent"
@@ -50,6 +51,7 @@ return (
   <Counter />
   <OnChangeEvents />
   
+  <ColorPicker />
 
  </>
 ) 
