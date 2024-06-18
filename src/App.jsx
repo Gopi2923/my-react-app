@@ -9,6 +9,7 @@ import OnChangeEvents from "./OnChangeEvents"
 import ProfilePicture from "./ProfilePicture"
 import Student from "./Student"
 import UpadteArrayState from "./UpadteArrayState"
+import UpdateArrayofObjectState from "./UpdateArrayofObjectState"
 import UpdateObjectState from "./UpdateObjectState"
 import UserGreeting from "./UserGreeting"
 
@@ -57,6 +58,8 @@ return (
 
   <UpdateObjectState />
   <UpadteArrayState />
+
+  <UpdateArrayofObjectState />
  </>
 ) 
 }
