@@ -8,6 +8,8 @@ import MyComponent from "./MyComponent"
 import OnChangeEvents from "./OnChangeEvents"
 import ProfilePicture from "./ProfilePicture"
 import Student from "./Student"
+import UpadteArrayState from "./UpadteArrayState"
+import UpdateObjectState from "./UpdateObjectState"
 import UserGreeting from "./UserGreeting"
 
 function App() {
@@ -53,6 +55,8 @@ return (
   
   <ColorPicker />
 
+  <UpdateObjectState />
+  <UpadteArrayState />
  </>
 ) 
 }
