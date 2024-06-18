@@ -8,6 +8,7 @@ import MyComponent from "./MyComponent"
 import OnChangeEvents from "./OnChangeEvents"
 import ProfilePicture from "./ProfilePicture"
 import Student from "./Student"
+import ToDoList from "./ToDoList"
 import UpadteArrayState from "./UpadteArrayState"
 import UpdateArrayofObjectState from "./UpdateArrayofObjectState"
 import UpdateObjectState from "./UpdateObjectState"
@@ -60,6 +61,8 @@ return (
   <UpadteArrayState />
 
   <UpdateArrayofObjectState />
+
+  <ToDoList />
  </>
 ) 
 }
