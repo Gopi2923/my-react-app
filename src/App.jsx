@@ -12,8 +12,9 @@ import ToDoList from "./ToDoList"
 import UpadteArrayState from "./UpadteArrayState"
 import UpdateArrayofObjectState from "./UpdateArrayofObjectState"
 import UpdateObjectState from "./UpdateObjectState"
+import Useefffect from "./Useefffect"
 import UserGreeting from "./UserGreeting"
-import useEffects from "./useEffects"
+
 
 function App() {
 
@@ -65,7 +66,9 @@ return (
 
   <ToDoList />
 
-  <useEffects />
+<useEffects />
+  
+  <Useefffect />
  </>
 ) 
 }
