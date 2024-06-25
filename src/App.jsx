@@ -2,6 +2,7 @@ import Button from "./Button/Button"
 import Buttons from "./Buttons"
 import Card from "./Card"
 import ColorPicker from "./ColorPicker"
+import ComponentA from "./ComponentA"
 import Counter from "./Counter"
 import DigitalClock from "./DigitalClock"
 import List from "./List"
@@ -72,6 +73,8 @@ return (
   <Useefffect />
 
   <DigitalClock />
+
+  <ComponentA />
  </>
 ) 
 }
