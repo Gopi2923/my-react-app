@@ -3,6 +3,7 @@ import Buttons from "./Buttons"
 import Card from "./Card"
 import ColorPicker from "./ColorPicker"
 import Counter from "./Counter"
+import DigitalClock from "./DigitalClock"
 import List from "./List"
 import MyComponent from "./MyComponent"
 import OnChangeEvents from "./OnChangeEvents"
@@ -69,6 +70,8 @@ return (
 <useEffects />
   
   <Useefffect />
+
+  <DigitalClock />
  </>
 ) 
 }
