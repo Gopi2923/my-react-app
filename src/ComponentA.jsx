@@ -1,4 +1,4 @@
-import {useState, useEffect, createContext} from 'react'
+import {useState, createContext} from 'react'
 import ComponentB from './ComponentB'
 
 //useContext() hook
