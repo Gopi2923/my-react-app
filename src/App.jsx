@@ -10,6 +10,7 @@ import List from "./List"
 import MyComponent from "./MyComponent"
 import OnChangeEvents from "./OnChangeEvents"
 import ProfilePicture from "./ProfilePicture"
+import Stopwatch from "./Stopwatch"
 import Student from "./Student"
 import ToDoList from "./ToDoList"
 import UpadteArrayState from "./UpadteArrayState"
@@ -78,6 +79,8 @@ return (
   <ComponentA />
 
   <ComponentUseRef />
+
+  <Stopwatch />
  </>
 ) 
 }
