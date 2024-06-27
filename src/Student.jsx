@@ -1,4 +1,4 @@
-import propType from 'prop-types'
+import propType from "prop-types";
 
 const Student = (props) => {
   return (
@@ -7,18 +7,18 @@ const Student = (props) => {
       <p>Age: {props.age}</p>
       <p>Student: {props.isStudent ? "Yes" : "No"}</p>
     </div>
-  )
-}
+  );
+};
 
 Student.proptypes = {
-    name: propType.string,
-    age: propType.number,
-    isStudent: propType.bool
-}
+  name: propType.string,
+  age: propType.number,
+  isStudent: propType.bool,
+};
 
 Student.defaultProps = {
-    name: "Guest",
-    age: 0,
-    isStudent: false
-}
-export default Student
+  name: "Guest",
+  age: 0,
+  isStudent: false,
+};
+export default Student;
