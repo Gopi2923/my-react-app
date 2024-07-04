@@ -12,6 +12,7 @@ const Useefffect = () => {
     setHeight(window.innerHeight);
   };
 
+  
   useEffect(() => {
     window.addEventListener("resize", handleResize);
     console.log("EVENT LISTENER ADDED");
