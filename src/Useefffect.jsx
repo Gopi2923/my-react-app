@@ -10,6 +10,7 @@ const Useefffect = () => {
   const handleResize = () => {
     setWidth(window.innerWidth);
     setHeight(window.innerHeight);
+    
   };
 
   
